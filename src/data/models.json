@@ -1,0 +1,2194 @@
+[
+  {
+    "id": "ollama-qwen3-0-6b",
+    "name": "Qwen3 0.6B Instruct Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 0.6,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 3,
+      "recommendedRamGb": 4,
+      "diskGb": 0.6,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:0.6b"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 2,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-1-7b",
+    "name": "Qwen3 1.7B Instruct Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 1.7,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 4,
+      "recommendedRamGb": 6,
+      "diskGb": 1.4,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:1.7b"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma4-e2b",
+    "name": "Gemma 4 E2B Instruct Ollama",
+    "family": "Gemma",
+    "task": "chat",
+    "parameterBillion": 2,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 4,
+      "recommendedRamGb": 6,
+      "diskGb": 2.9,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma4:e2b"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-llama3-2-3b",
+    "name": "Llama 3.2 3B Instruct Ollama",
+    "family": "Llama",
+    "task": "chat",
+    "parameterBillion": 3,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Llama 3.2 Community License",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/llama3.2",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 6,
+      "recommendedRamGb": 8,
+      "diskGb": 2.1,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run llama3.2:3b",
+      "llamaCpp": "llama-server -m /path/to/llama-3.2-3b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-ministral-3-3b",
+    "name": "Ministral 3 3B Ollama",
+    "family": "Ministral",
+    "task": "chat",
+    "parameterBillion": 3,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/ministral-3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 5,
+      "recommendedRamGb": 8,
+      "diskGb": 2.2,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run ministral-3:3b"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma4-e4b",
+    "name": "Gemma 4 E4B Instruct Ollama",
+    "family": "Gemma",
+    "task": "chat",
+    "parameterBillion": 4,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 6,
+      "recommendedRamGb": 10,
+      "diskGb": 4.5,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma4:e4b"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-4b",
+    "name": "Qwen3 4B Instruct Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 4,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 6,
+      "recommendedRamGb": 8,
+      "diskGb": 2.6,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:4b",
+      "llamaCpp": "llama-server -m /path/to/qwen3-4b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-mistral-7b",
+    "name": "Mistral 7B Instruct Ollama",
+    "family": "Mistral",
+    "task": "chat",
+    "parameterBillion": 7,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/mistral",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 8,
+      "recommendedRamGb": 12,
+      "diskGb": 4.1,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run mistral:7b",
+      "llamaCpp": "llama-server -m /path/to/mistral-7b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-deepseek-r1-8b",
+    "name": "DeepSeek R1 Distill Llama 8B Ollama",
+    "family": "DeepSeek",
+    "task": "chat",
+    "parameterBillion": 8,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "MIT",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/deepseek-r1",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 10,
+      "recommendedRamGb": 14,
+      "diskGb": 5,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run deepseek-r1:8b",
+      "llamaCpp": "llama-server -m /path/to/deepseek-r1-distill-llama-8b-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-ministral-3-8b",
+    "name": "Ministral 3 8B Ollama",
+    "family": "Ministral",
+    "task": "chat",
+    "parameterBillion": 8,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/ministral-3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 8,
+      "recommendedRamGb": 14,
+      "diskGb": 5.6,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run ministral-3:8b"
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-8b",
+    "name": "Qwen3 8B Instruct Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 8,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 8,
+      "recommendedRamGb": 14,
+      "diskGb": 5.2,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:8b",
+      "llamaCpp": "llama-server -m /path/to/qwen3-8b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma4-12b",
+    "name": "Gemma 4 12B Instruct Ollama",
+    "family": "Gemma",
+    "task": "chat",
+    "parameterBillion": 12,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 12,
+      "recommendedRamGb": 20,
+      "diskGb": 7.5,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma4:12b"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-mistral-nemo-12b",
+    "name": "Mistral NeMo 12B Instruct Ollama",
+    "family": "Mistral",
+    "task": "chat",
+    "parameterBillion": 12,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/mistral-nemo",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 12,
+      "recommendedRamGb": 20,
+      "diskGb": 7.1,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run mistral-nemo:12b",
+      "llamaCpp": "llama-server -m /path/to/mistral-nemo-12b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-ministral-3-14b",
+    "name": "Ministral 3 14B Ollama",
+    "family": "Ministral",
+    "task": "chat",
+    "parameterBillion": 14,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/ministral-3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 14,
+      "recommendedRamGb": 22,
+      "diskGb": 9.8,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run ministral-3:14b"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-phi4-14b",
+    "name": "Phi 4 14B Instruct Ollama",
+    "family": "Phi",
+    "task": "chat",
+    "parameterBillion": 14,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "MIT",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/phi4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 14,
+      "recommendedRamGb": 20,
+      "diskGb": 9.1,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run phi4:14b",
+      "llamaCpp": "llama-server -m /path/to/phi-4-14b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-phi4-reasoning-14b",
+    "name": "Phi 4 Reasoning Plus 14B Ollama",
+    "family": "Phi",
+    "task": "chat",
+    "parameterBillion": 14,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "MIT",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/phi4-reasoning",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 14,
+      "recommendedRamGb": 20,
+      "diskGb": 9.1,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run phi4-reasoning:14b-plus"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-14b",
+    "name": "Qwen3 14B Instruct Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 14,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 14,
+      "recommendedRamGb": 22,
+      "diskGb": 9.3,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:14b",
+      "llamaCpp": "llama-server -m /path/to/qwen3-14b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma4-26b",
+    "name": "Gemma 4 26B Instruct Ollama",
+    "family": "Gemma",
+    "task": "chat",
+    "parameterBillion": 26,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 20,
+      "recommendedRamGb": 36,
+      "diskGb": 14.4,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma4:26b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-30b-a3b",
+    "name": "Qwen3 30B-A3B MoE Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 30,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 32,
+      "diskGb": 19,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:30b-a3b"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma4-31b",
+    "name": "Gemma 4 31B Instruct Ollama",
+    "family": "Gemma",
+    "task": "chat",
+    "parameterBillion": 31,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 48,
+      "diskGb": 17.5,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma4:31b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-deepseek-r1-32b",
+    "name": "DeepSeek R1 Distill Qwen 32B Ollama",
+    "family": "DeepSeek",
+    "task": "chat",
+    "parameterBillion": 32,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "MIT",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/deepseek-r1",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 48,
+      "diskGb": 20,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run deepseek-r1:32b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-32b",
+    "name": "Qwen3 32B Instruct Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 32,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 48,
+      "diskGb": 20,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:32b",
+      "llamaCpp": "llama-server -m /path/to/qwen3-32b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-235b-a22b",
+    "name": "Qwen3 235B-A22B MoE Ollama",
+    "family": "Qwen3",
+    "task": "chat",
+    "parameterBillion": 235,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 160,
+      "recommendedRamGb": 256,
+      "diskGb": 142,
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3:235b-a22b"
+    },
+    "qualityHints": {
+      "speed": 1,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-deepseek-v3-671b",
+    "name": "DeepSeek V3 671B Ollama",
+    "family": "DeepSeek",
+    "task": "chat",
+    "parameterBillion": 671,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "MIT",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/deepseek-v3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 384,
+      "recommendedRamGb": 768,
+      "diskGb": 404,
+      "preferredAccelerators": [
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run deepseek-v3"
+    },
+    "qualityHints": {
+      "speed": 1,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "ollama-qwen2-5-coder-7b",
+    "name": "Qwen 2.5 Coder 7B Instruct Ollama",
+    "family": "Qwen Coder",
+    "task": "coding",
+    "parameterBillion": 7,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen2.5-coder",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 8,
+      "recommendedRamGb": 12,
+      "diskGb": 4.5,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen2.5-coder:7b",
+      "llamaCpp": "llama-server -m /path/to/qwen2.5-coder-7b-instruct-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen2-5-coder-14b",
+    "name": "Qwen 2.5 Coder 14B Instruct Ollama",
+    "family": "Qwen Coder",
+    "task": "coding",
+    "parameterBillion": 14,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen2.5-coder",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 14,
+      "recommendedRamGb": 22,
+      "diskGb": 8.7,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen2.5-coder:14b"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-deepseek-coder-v2-lite-16b",
+    "name": "DeepSeek Coder V2 Lite 16B Ollama",
+    "family": "DeepSeek Coder",
+    "task": "coding",
+    "parameterBillion": 16,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "DeepSeek License",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/deepseek-coder-v2",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 16,
+      "recommendedRamGb": 24,
+      "diskGb": 8.9,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run deepseek-coder-v2:16b"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-codestral-22b",
+    "name": "Codestral 22B Ollama",
+    "family": "Codestral",
+    "task": "coding",
+    "parameterBillion": 22,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Mistral AI Non-Production License",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/codestral",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 20,
+      "recommendedRamGb": 34,
+      "diskGb": 13,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run codestral:22b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-devstral-24b",
+    "name": "Devstral 24B Ollama",
+    "family": "Devstral",
+    "task": "coding",
+    "parameterBillion": 24,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/devstral",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 20,
+      "recommendedRamGb": 36,
+      "diskGb": 14,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run devstral:24b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-devstral-small-2-24b",
+    "name": "Devstral Small 2 24B Ollama",
+    "family": "Devstral",
+    "task": "coding",
+    "parameterBillion": 24,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/devstral-small-2",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 20,
+      "recommendedRamGb": 36,
+      "diskGb": 14,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run devstral-small-2:24b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-6-27b",
+    "name": "Qwen3.6 27B Ollama",
+    "family": "Qwen3.6",
+    "task": "coding",
+    "parameterBillion": 27,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3.6",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 42,
+      "diskGb": 17,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3.6:27b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-north-mini-code-30b-a3b",
+    "name": "North Mini Code 30B-A3B Ollama",
+    "family": "North",
+    "task": "coding",
+    "parameterBillion": 30,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Cohere For AI Community License",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/north-mini-code-1.0",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 48,
+      "diskGb": 19,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run north-mini-code-1.0"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-coder-next",
+    "name": "Qwen3 Coder Next Ollama",
+    "family": "Qwen Coder",
+    "task": "coding",
+    "parameterBillion": 30,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3-coder-next",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 48,
+      "diskGb": 19,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3-coder-next"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen2-5-coder-32b",
+    "name": "Qwen 2.5 Coder 32B Instruct Ollama",
+    "family": "Qwen Coder",
+    "task": "coding",
+    "parameterBillion": 32,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen2.5-coder",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 48,
+      "diskGb": 19,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen2.5-coder:32b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-6-35b-a3b",
+    "name": "Qwen3.6 35B-A3B MoE Ollama",
+    "family": "Qwen3.6",
+    "task": "coding",
+    "parameterBillion": 35,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3.6",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 28,
+      "recommendedRamGb": 52,
+      "diskGb": 22,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3.6:35b-a3b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "onnx-bge-small-en-v1-5",
+    "name": "BGE Small EN v1.5 ONNX",
+    "family": "BGE",
+    "task": "embedding",
+    "parameterBillion": 0.033,
+    "format": "onnx",
+    "quantization": "int8/fp16",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 2,
+      "recommendedRamGb": 4,
+      "diskGb": 0.2,
+      "preferredAccelerators": [
+        "cpu",
+        "openvino"
+      ]
+    },
+    "runtimes": [
+      "onnx",
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Download from Hugging Face and run with ONNX Runtime or Transformers."
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 4
+    }
+  },
+  {
+    "id": "onnx-bge-base-en-v1-5",
+    "name": "BGE Base EN v1.5 ONNX",
+    "family": "BGE",
+    "task": "embedding",
+    "parameterBillion": 0.11,
+    "format": "onnx",
+    "quantization": "int8/fp16",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 3,
+      "recommendedRamGb": 4,
+      "diskGb": 0.5,
+      "preferredAccelerators": [
+        "cpu",
+        "openvino"
+      ]
+    },
+    "runtimes": [
+      "onnx",
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Download from Hugging Face and run with ONNX Runtime or Transformers."
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 4,
+      "easeOfUse": 4
+    }
+  },
+  {
+    "id": "ollama-nomic-embed-text",
+    "name": "Nomic Embed Text Ollama",
+    "family": "Nomic",
+    "task": "embedding",
+    "parameterBillion": 0.137,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/nomic-embed-text",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 3,
+      "recommendedRamGb": 4,
+      "diskGb": 0.3,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run nomic-embed-text"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-embeddinggemma-300m",
+    "name": "EmbeddingGemma 300M Ollama",
+    "family": "Gemma",
+    "task": "embedding",
+    "parameterBillion": 0.3,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/embeddinggemma",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 3,
+      "recommendedRamGb": 4,
+      "diskGb": 0.7,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run embeddinggemma:300m"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "onnx-bge-large-en-v1-5",
+    "name": "BGE Large EN v1.5 ONNX",
+    "family": "BGE",
+    "task": "embedding",
+    "parameterBillion": 0.335,
+    "format": "onnx",
+    "quantization": "int8/fp16",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 4,
+      "recommendedRamGb": 6,
+      "diskGb": 1.3,
+      "preferredAccelerators": [
+        "cpu",
+        "openvino"
+      ]
+    },
+    "runtimes": [
+      "onnx",
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Download from Hugging Face and run with ONNX Runtime or Transformers."
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 5,
+      "easeOfUse": 4
+    }
+  },
+  {
+    "id": "ollama-qwen3-embedding-0-6b",
+    "name": "Qwen3 Embedding 0.6B Ollama",
+    "family": "Qwen3",
+    "task": "embedding",
+    "parameterBillion": 0.6,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3-embedding",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 3,
+      "recommendedRamGb": 4,
+      "diskGb": 0.7,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3-embedding:0.6b"
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 4,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-embedding-4b",
+    "name": "Qwen3 Embedding 4B Ollama",
+    "family": "Qwen3",
+    "task": "embedding",
+    "parameterBillion": 4,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3-embedding",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 6,
+      "recommendedRamGb": 8,
+      "diskGb": 2.6,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3-embedding:4b"
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-qwen3-embedding-8b",
+    "name": "Qwen3 Embedding 8B Ollama",
+    "family": "Qwen3",
+    "task": "embedding",
+    "parameterBillion": 8,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/qwen3-embedding",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 8,
+      "recommendedRamGb": 14,
+      "diskGb": 5.2,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run qwen3-embedding:8b"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma3-4b-vision",
+    "name": "Gemma 3 4B Vision Ollama",
+    "family": "Gemma",
+    "task": "vision",
+    "parameterBillion": 4,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 6,
+      "recommendedRamGb": 10,
+      "diskGb": 3.3,
+      "preferredAccelerators": [
+        "metal",
+        "cuda",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma3:4b"
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-llava-7b",
+    "name": "LLaVA 7B Vision Ollama",
+    "family": "LLaVA",
+    "task": "vision",
+    "parameterBillion": 7,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/llava",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 10,
+      "recommendedRamGb": 16,
+      "minVramGb": 4,
+      "recommendedVramGb": 8,
+      "diskGb": 5,
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp"
+    ],
+    "installCommands": {
+      "ollama": "ollama run llava:7b",
+      "llamaCpp": "llama-server -m /path/to/llava-7b-q4.gguf"
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 3,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "hf-qwen2-5-vl-7b",
+    "name": "Qwen2.5-VL 7B Instruct Transformers",
+    "family": "Qwen VL",
+    "task": "vision",
+    "parameterBillion": 7,
+    "format": "safetensors",
+    "quantization": "fp16/int4",
+    "license": "Apache-2.0",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 12,
+      "recommendedRamGb": 20,
+      "minVramGb": 6,
+      "recommendedVramGb": 12,
+      "diskGb": 4.5,
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "transformers",
+      "vllm"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load Qwen/Qwen2.5-VL-7B-Instruct from Hugging Face."
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "ollama-mistral-small3-2-24b",
+    "name": "Mistral Small 3.2 24B Vision Ollama",
+    "family": "Mistral",
+    "task": "vision",
+    "parameterBillion": 24,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Apache-2.0",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/mistral-small3.2",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 20,
+      "recommendedRamGb": 36,
+      "minVramGb": 8,
+      "recommendedVramGb": 16,
+      "diskGb": 15,
+      "preferredAccelerators": [
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "llama.cpp",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run mistral-small3.2:24b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "ollama-gemma3-27b-vision",
+    "name": "Gemma 3 27B Vision Ollama",
+    "family": "Gemma",
+    "task": "vision",
+    "parameterBillion": 27,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Gemma Terms of Use",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/gemma3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 42,
+      "minVramGb": 8,
+      "recommendedVramGb": 16,
+      "diskGb": 17,
+      "preferredAccelerators": [
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama"
+    ],
+    "installCommands": {
+      "ollama": "ollama run gemma3:27b"
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 5
+    }
+  },
+  {
+    "id": "hf-qwen2-5-vl-32b",
+    "name": "Qwen2.5-VL 32B Instruct Transformers",
+    "family": "Qwen VL",
+    "task": "vision",
+    "parameterBillion": 32,
+    "format": "safetensors",
+    "quantization": "fp16/int4",
+    "license": "Apache-2.0",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 28,
+      "recommendedRamGb": 56,
+      "minVramGb": 12,
+      "recommendedVramGb": 24,
+      "diskGb": 22,
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "transformers",
+      "vllm"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load Qwen/Qwen2.5-VL-32B-Instruct from Hugging Face."
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "ollama-llama4-scout",
+    "name": "Llama 4 Scout Vision Ollama",
+    "family": "Llama",
+    "task": "vision",
+    "parameterBillion": 109,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Llama 4 Community License",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/llama4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 96,
+      "recommendedRamGb": 160,
+      "minVramGb": 24,
+      "recommendedVramGb": 48,
+      "diskGb": 67,
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run llama4:scout"
+    },
+    "qualityHints": {
+      "speed": 1,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "ollama-llama4-maverick",
+    "name": "Llama 4 Maverick Vision Ollama",
+    "family": "Llama",
+    "task": "vision",
+    "parameterBillion": 400,
+    "format": "ollama",
+    "quantization": "default",
+    "license": "Llama 4 Community License",
+    "source": "ollama",
+    "sourceUrl": "https://ollama.com/library/llama4",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 256,
+      "recommendedRamGb": 512,
+      "minVramGb": 48,
+      "recommendedVramGb": 96,
+      "diskGb": 245,
+      "preferredAccelerators": [
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "ollama",
+      "vllm"
+    ],
+    "installCommands": {
+      "ollama": "ollama run llama4:maverick"
+    },
+    "qualityHints": {
+      "speed": 1,
+      "quality": 5,
+      "easeOfUse": 2
+    }
+  },
+  {
+    "id": "hf-sd3-5-medium",
+    "name": "Stable Diffusion 3.5 Medium Diffusers FP16",
+    "family": "Stable Diffusion",
+    "task": "image",
+    "parameterBillion": 2.5,
+    "format": "safetensors",
+    "quantization": "fp16",
+    "license": "Stability AI Community License",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 16,
+      "recommendedRamGb": 24,
+      "minVramGb": 6,
+      "recommendedVramGb": 12,
+      "diskGb": 10,
+      "requiredAccelerators": [
+        "cuda",
+        "metal"
+      ],
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "diffusers"
+    ],
+    "installCommands": {
+      "notes": "Install diffusers and load stabilityai/stable-diffusion-3.5-medium."
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 4,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-sdxl-turbo",
+    "name": "SDXL Turbo Diffusers FP16",
+    "family": "Stable Diffusion",
+    "task": "image",
+    "parameterBillion": 2.6,
+    "format": "safetensors",
+    "quantization": "fp16",
+    "license": "Stability AI Non-Commercial Research Community License",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/stabilityai/sdxl-turbo",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 12,
+      "recommendedRamGb": 16,
+      "minVramGb": 6,
+      "recommendedVramGb": 8,
+      "diskGb": 7,
+      "requiredAccelerators": [
+        "cuda",
+        "metal"
+      ],
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "diffusers"
+    ],
+    "installCommands": {
+      "notes": "Install diffusers and load stabilityai/sdxl-turbo."
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-flux2-klein",
+    "name": "FLUX.2 Klein Diffusers",
+    "family": "FLUX",
+    "task": "image",
+    "parameterBillion": 4,
+    "format": "safetensors",
+    "quantization": "fp16/q4",
+    "license": "Apache-2.0",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/black-forest-labs/FLUX.2-Klein",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 16,
+      "recommendedRamGb": 24,
+      "minVramGb": 8,
+      "recommendedVramGb": 12,
+      "diskGb": 12,
+      "requiredAccelerators": [
+        "cuda",
+        "metal"
+      ],
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "diffusers"
+    ],
+    "installCommands": {
+      "notes": "Install diffusers and load black-forest-labs/FLUX.2-Klein."
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-sd3-5-large",
+    "name": "Stable Diffusion 3.5 Large Diffusers FP16",
+    "family": "Stable Diffusion",
+    "task": "image",
+    "parameterBillion": 8,
+    "format": "safetensors",
+    "quantization": "fp16",
+    "license": "Stability AI Community License",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 24,
+      "recommendedRamGb": 32,
+      "minVramGb": 12,
+      "recommendedVramGb": 24,
+      "diskGb": 18,
+      "requiredAccelerators": [
+        "cuda",
+        "metal"
+      ],
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "diffusers"
+    ],
+    "installCommands": {
+      "notes": "Install diffusers and load stabilityai/stable-diffusion-3.5-large."
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-flux1-schnell",
+    "name": "FLUX.1 Schnell Diffusers",
+    "family": "FLUX",
+    "task": "image",
+    "parameterBillion": 12,
+    "format": "safetensors",
+    "quantization": "fp16/q4",
+    "license": "Apache-2.0",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 16,
+      "recommendedRamGb": 32,
+      "minVramGb": 8,
+      "recommendedVramGb": 16,
+      "diskGb": 23,
+      "requiredAccelerators": [
+        "cuda",
+        "metal"
+      ],
+      "preferredAccelerators": [
+        "cuda",
+        "metal"
+      ]
+    },
+    "runtimes": [
+      "diffusers"
+    ],
+    "installCommands": {
+      "notes": "Install diffusers and load black-forest-labs/FLUX.1-schnell."
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-whisper-tiny",
+    "name": "Whisper Tiny Transformers",
+    "family": "Whisper",
+    "task": "audio",
+    "parameterBillion": 0.039,
+    "format": "safetensors",
+    "quantization": "fp16/int8",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/openai/whisper-tiny",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 2,
+      "recommendedRamGb": 4,
+      "diskGb": 0.2,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load openai/whisper-tiny."
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 2,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-whisper-base",
+    "name": "Whisper Base Transformers",
+    "family": "Whisper",
+    "task": "audio",
+    "parameterBillion": 0.074,
+    "format": "safetensors",
+    "quantization": "fp16/int8",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/openai/whisper-base",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 3,
+      "recommendedRamGb": 4,
+      "diskGb": 0.4,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load openai/whisper-base."
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-whisper-small",
+    "name": "Whisper Small Transformers",
+    "family": "Whisper",
+    "task": "audio",
+    "parameterBillion": 0.244,
+    "format": "safetensors",
+    "quantization": "fp16/int8",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/openai/whisper-small",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 4,
+      "recommendedRamGb": 6,
+      "diskGb": 1,
+      "preferredAccelerators": [
+        "cpu",
+        "metal",
+        "cuda"
+      ]
+    },
+    "runtimes": [
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load openai/whisper-small."
+    },
+    "qualityHints": {
+      "speed": 4,
+      "quality": 4,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-whisper-medium",
+    "name": "Whisper Medium Transformers",
+    "family": "Whisper",
+    "task": "audio",
+    "parameterBillion": 0.769,
+    "format": "safetensors",
+    "quantization": "fp16/int8",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/openai/whisper-medium",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 8,
+      "recommendedRamGb": 12,
+      "minVramGb": 4,
+      "recommendedVramGb": 8,
+      "diskGb": 3.1,
+      "preferredAccelerators": [
+        "cuda",
+        "metal",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load openai/whisper-medium."
+    },
+    "qualityHints": {
+      "speed": 3,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "hf-whisper-large-v3",
+    "name": "Whisper Large v3 Transformers",
+    "family": "Whisper",
+    "task": "audio",
+    "parameterBillion": 1.55,
+    "format": "safetensors",
+    "quantization": "fp16/int8",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/openai/whisper-large-v3",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 12,
+      "recommendedRamGb": 16,
+      "minVramGb": 6,
+      "recommendedVramGb": 10,
+      "diskGb": 6.2,
+      "preferredAccelerators": [
+        "cuda",
+        "metal",
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "transformers"
+    ],
+    "installCommands": {
+      "notes": "Install transformers and load openai/whisper-large-v3."
+    },
+    "qualityHints": {
+      "speed": 2,
+      "quality": 5,
+      "easeOfUse": 3
+    }
+  },
+  {
+    "id": "onnx-piper-lessac-medium",
+    "name": "Piper en_US Lessac Medium ONNX",
+    "family": "Piper",
+    "task": "audio",
+    "format": "onnx",
+    "quantization": "fp32",
+    "license": "MIT",
+    "source": "huggingface",
+    "sourceUrl": "https://huggingface.co/rhasspy/piper-voices",
+    "lastUpdated": "2026-07-02",
+    "requirements": {
+      "minRamGb": 2,
+      "recommendedRamGb": 4,
+      "diskGb": 0.1,
+      "preferredAccelerators": [
+        "cpu"
+      ]
+    },
+    "runtimes": [
+      "onnx"
+    ],
+    "installCommands": {
+      "notes": "Download a Piper ONNX voice and run with Piper or ONNX Runtime."
+    },
+    "qualityHints": {
+      "speed": 5,
+      "quality": 3,
+      "easeOfUse": 4
+    }
+  }
+]

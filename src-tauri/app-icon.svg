@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="152" y1="104" x2="872" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14171f"/>
+      <stop offset="0.55" stop-color="#243047"/>
+      <stop offset="1" stop-color="#0f7a78"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="250" y1="232" x2="774" y2="792" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4f7fb"/>
+      <stop offset="1" stop-color="#b7f2df"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect x="254" y="254" width="516" height="516" rx="96" fill="none" stroke="url(#chip)" stroke-width="58"/>
+  <g stroke="#b7f2df" stroke-linecap="round" stroke-width="38">
+    <path d="M512 152v72"/>
+    <path d="M512 800v72"/>
+    <path d="M152 512h72"/>
+    <path d="M800 512h72"/>
+    <path d="M308 184l36 62"/>
+    <path d="M680 778l36 62"/>
+    <path d="M184 716l62-36"/>
+    <path d="M778 344l62-36"/>
+  </g>
+  <path
+    d="M382 666 488 358h58l108 308h-70l-20-64H468l-20 64h-66Zm104-122h60l-30-98-30 98Z"
+    fill="#ffffff"
+  />
+</svg>
